@@ -1,0 +1,84 @@
+table {
+  width: 100vw;
+}
+/* table,
+th,
+td {
+  border: 1px solid black;
+} */
+
+th,
+.footer {
+  background-color: rgb(65, 65, 65) !important;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover:nth-child(even) {
+  background-color: white;
+}
+
+tr:hover:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+i::after,
+i::before {
+  padding: 0 0.6em;
+}
+
+tr > th:nth-child(1),
+tr > td:nth-child(1) {
+  padding: 10px 20px 10px 10px;
+}
+tr > th:nth-child(2),
+tr > td:nth-child(2) {
+  padding: 10px 100px 10px 10px;
+}
+tr > th:nth-child(3),
+tr > td:nth-child(3) {
+  padding: 8px;
+  text-align: center;
+}
+
+tr > th:nth-child(4),
+tr > th:nth-child(5),
+tr > td:nth-child(4),
+tr > td:nth-child(5) {
+  padding: 10px 10px 10px 20px;
+  text-align: right;
+}
+tr > td:nth-child(6) {
+  text-align: center;
+}
+
+tr.footer {
+  text-align: right;
+}
+button,
+.fa-solid,
+.fa-regular {
+  font-size: 25px;
+  color: black;
+}
+button {
+  background-color: red;
+  color: white;
+  border: 0;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 20px;
+  border: 5px solid red;
+}
+.footerButton {
+  text-align: right;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
