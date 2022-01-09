@@ -1,11 +1,6 @@
 table {
   width: 100vw;
 }
-/* table,
-th,
-td {
-  border: 1px solid black;
-} */
 
 th,
 .footer {
@@ -80,5 +75,9 @@ button {
 button:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
+}
+
+tr > td:nth-child(6) > i {
   cursor: pointer;
 }
